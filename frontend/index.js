@@ -13,7 +13,7 @@ google.charts.load("current", {
         var trHTML = "";
         var num = 1;
         const objects = JSON.parse(this.responseText);
-        console.log(objects);
+        console.log(objects)
   
         for (let object of objects) {
           trHTML += "<tr>";

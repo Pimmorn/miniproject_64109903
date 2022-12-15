@@ -17,8 +17,8 @@ google.charts.load("current", {
   
         for (let object of objects) {
           trHTML += "<tr>";
-          trHTML += "<td>" + num + "</td>";
-          trHTML += "<td>" + object["HeartDisease"] + "</td>";
+          trHTML += "<td>" + num + "</td>"
+          trHTML += "<td>" + object["HeartDisease"] + "</td>"
           trHTML += "<td>" + object["BMI"] + "</td>";
           trHTML += "<td>" + object["Smoking"] + "</td>";
           trHTML += "<td>" + object["AlcoholDrinking"] + "</td>";
